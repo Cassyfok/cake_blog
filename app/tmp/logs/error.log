@@ -1,0 +1,66 @@
+2014-02-19 14:59:00 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/Posts/index/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:00:35 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/Posts/index/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:00:36 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/Posts/index/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:16:41 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/View
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:17:30 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/View
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:17:30 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/View
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-19 15:19:07 Error: [MissingViewException] View file "C:\wamp\www\cakeblog\app\View\Posts\view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\cakeblog\\app\\View\\Posts\\view.ctp',
+)
+Request URL: /cakeblog/posts/view/1
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
