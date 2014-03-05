@@ -37,7 +37,7 @@ class PostsController extends AppController {
     }
 	
 	//function will allow us to edit an existing post//
-		public function edit($id = null) {
+	public function edit($id = null) {
     if (!$id) {
         throw new NotFoundException(__('Invalid post'));
     }
