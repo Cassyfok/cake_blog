@@ -2,6 +2,24 @@
 class PostsController extends AppController {
     public $helpers = array('Html', 'Form');
 	
+	public function isAuthorized($user) {
+    // All registered users can add posts
+    if ($this->action === 'add') {
+        return true;
+    }
+    // The owner of a post can edit and delete it
+    if (in_array($this->action, array('edit', 'delete'))) {
+        $postId = $this->request->params['pass'][0];
+        if ($this->Post->isOwnedBy($postId, $user['id'])) {
+            return true;
+        }
+    }
+		return parent::isAuthorized($user);
+	}
+	public function logout() {
+		return $this->redirect($this->Auth->logout());
+	}	
+	
 	public function index() {
 		//finding all the records in the Post table & handing the response to the index.ctp//
         $this->set('posts', $this->Post->find('all'));
@@ -22,8 +40,9 @@ class PostsController extends AppController {
 	public function add() {
 		//checking if this is a HTTP post request//
         if ($this->request->is('post')) {
-			//initializing the Post Model//
+			//initializing the Post Model//			
             $this->Post->create();
+			$this->request->data['Post']['user_id'] = $this->Auth->user('id');
 			//handing the request object data to be saved by the Post Model//
             if ($this->Post->save($this->request->data)) {
 				//flashing a success message//
@@ -38,29 +57,29 @@ class PostsController extends AppController {
 	
 	//function will allow us to edit an existing post//
 	public function edit($id = null) {
-    if (!$id) {
-        throw new NotFoundException(__('Invalid post'));
-    }
+		if (!$id) {
+			throw new NotFoundException(__('Invalid post'));
+		}
 
-    $post = $this->Post->findById($id);
-    if (!$post) {
-        throw new NotFoundException(__('Invalid post'));
-    }
+		$post = $this->Post->findById($id);
+		if (!$post) {
+			throw new NotFoundException(__('Invalid post'));
+		}
 	
 	//to check if is a post request or put request//
-    if ($this->request->is(array('post', 'put'))) {
-        $this->Post->id = $id;
-        if ($this->Post->save($this->request->data)) {
-            $this->Session->setFlash(__('Your post has been updated.'));
-            return $this->redirect(array('action' => 'index'));
-        }
-        $this->Session->setFlash(__('Unable to update your post.'));
-    }
+		if ($this->request->is(array('post', 'put'))) {
+			$this->Post->id = $id;
+			if ($this->Post->save($this->request->data)) {
+				$this->Session->setFlash(__('Your post has been updated.'));
+				return $this->redirect(array('action' => 'index'));
+			}
+			$this->Session->setFlash(__('Unable to update your post.'));
+		}
 	
-    if (!$this->request->data) {
-        $this->request->data = $post;
-    }
-}
+		if (!$this->request->data) {
+			$this->request->data = $post;
+		}
+	}
 	
 	//send id to the posts that need to be deleted//
 	public function delete($id) {

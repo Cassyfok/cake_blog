@@ -1,17 +1,27 @@
 <?php
 // app/Controller/UsersController.php
-class UsersController extends AppController {
-
-    public function beforeFilter() {
+class UsersController extends AppController {   
+	
+	public function login() {
+		if ($this->request->is('post')) {
+			if ($this->Auth->login()) {
+				return $this->redirect($this->Auth->redirect());
+			}
+			$this->Session->setFlash(__('Invalid username or password, try again'));
+		}
+	}	
+	public function logout() {
+		return $this->redirect($this->Auth->logout());
+	}	
+	public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('add');
+		//allows users to register and logout
+        $this->Auth->allow('add', 'logout');
     }
-
     public function index() {
         $this->User->recursive = 0;
         $this->set('users', $this->paginate());
     }
-
 	//find the user id
     public function view($id = null) {
         $this->User->id = $id;
@@ -22,7 +32,6 @@ class UsersController extends AppController {
 		//read the details according to the id
         $this->set('user', $this->User->read(null, $id));
     }
-
     public function add() {
         if ($this->request->is('post')) {
             $this->User->create();
@@ -37,7 +46,6 @@ class UsersController extends AppController {
             );
         }
     }
-
     public function edit($id = null) {
         $this->User->id = $id;
         if (!$this->User->exists()) {
@@ -58,7 +66,6 @@ class UsersController extends AppController {
             unset($this->request->data['User']['password']);
         }
     }
-
     public function delete($id = null) {
         $this->request->onlyAllow('post');
 
