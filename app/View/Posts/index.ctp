@@ -1,48 +1,45 @@
 <!-- File: /app/View/Posts/index.ctp -->
-
-<h1>Blog Posts</h1>
-<table>
+<div class= "posts index">
+<div class="panel panel-default">
+<div class="panel-heading">MY BLOG POSTS</div>
+<div class="table-responsive">
+<table class="table">
     <tr>
-        <th>Id</th>
-        <th>Title</th>
+		<th>Title</th>
         <th>Created</th>
 		<th>Delete</th>
 		<th>Edit</th>
+		<th>User Id</th>
+		<th>Editor</th>
     </tr>
 
     <!-- Here is where we loop through our $posts array, printing out post info -->
 	
     <?php foreach ($posts as $post): ?>
     <tr>
-        <td><?php echo $post['Post']['id']; ?></td>
-		
-        <td>
-            <?php echo $this->Html->link($post['Post']['title'],array('controller' => 'posts', 'action' => 'view', $post['Post']['id'])); ?>
-        </td>
+        <td><?php echo $this->Html->link($post['Post']['title'],array('action'=>'view', $post['Post']['id'])); ?></td>
 		
 		<td><?php echo $post['Post']['created']; ?></td>
 		
-		<td>
-			<?php
-                echo $this->Form->postLink('Delete',array('action' => 'delete', $post['Post']['id']),array('confirm' => 'Are you sure?')
-                );
-            ?>
-		</td>
+		<td><?php echo $this->Form->postLink('Delete',array('action' => 'delete', $post['Post']['id']),array('confirm' => 'Are you sure?')); ?></td>
 
-		<td>	
-            <?php
-                echo $this->Html->link('Edit',array('action' => 'edit', $post['Post']['id']));
-            ?>
-        </td>
-     
+		<td><?php echo $this->Html->link('Edit',array('action' => 'edit', $post['Post']['id'])); ?></td>
+		<!--create another column or table data-->
+		<td> <?php echo $post['Post']['user_id']; ?> </td> 
+        <!-- and pass user_id from post database-->    
+		<td><p><?php echo h($post['User']['username']); ?></p></td>
     </tr>
     <?php endforeach; ?>
     <?php unset($post); ?>
 </table>
-<td>
-	<?php echo $this->Html->link('Add Post',array('controller' => 'posts', 'action' => 'add')); ?>
-	<?php echo $this->Html->link('Logout',array('controller' => 'posts', 'action' => 'logout')); ?>
-</td>
+
+<div class="actions">
+	<ul>
+		<td><?php echo $this->Html->link(__('Add Blog'), array('action' => 'add')); ?></td>
+		<td><?php echo $this->Html->link('Logout',array('controller'=>'users', 'action'=>'logout')); ?></td>		
+	</ul>
+</div>
+	
 
 
 

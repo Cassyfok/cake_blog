@@ -24,9 +24,9 @@
 /** General Style Info **/
 body {
 	background: #003d4c;
-	color: #fff;
+	
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:90%;
+	font-size:100%;
 	margin: 0;
 }
 a {
@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 h1 {
 	background:#fff;
 	color: #003d4c;
-	font-size: 100%;
+	font-size: 50%;
 }
 h2 {
 	background:#fff;
@@ -79,11 +79,12 @@ p {
 
 #header{
 	padding: 10px 20px;
+	background: darkblue;
 }
 #header h1 {
 	line-height:20px;
 	background: #003d4c url('../img/cake.icon.png') no-repeat left;
-	color: #fff;
+	color: darkblue;
 	padding: 0px 30px;
 }
 #header h1 a {
@@ -739,4 +740,28 @@ pre {
 /** Elements **/
 #url-rewriting-warning {
 	display:none;
+}
+
+/**Div**/
+div#buttonlogout{
+
+	padding: 25px 0px;
+
+}
+
+div#addpost{
+	padding: 10px 1px;
+}
+
+div#goback{
+margin: 0px 0px;
+}
+
+div#welcome{
+text-align: left;
+color: #0100cc;
+}
+
+#name{
+color: #fff;
 }

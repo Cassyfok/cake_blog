@@ -33,18 +33,13 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 
     public $components = array(
-        'Session',
+		'DebugKit.Toolbar',
+		'Session',
         'Auth' => array(
-            'loginRedirect' => array('controller' => 'posts',
-				'action' => 'index'),
-            'logoutRedirect' => array(
-                'controller' => 'pages',
-                'action' => 'display',
-                'home'
-            ),
-			'authorize' => array('Controller')// added this line
-		)
-    );	
+            'loginRedirect' => array('controller' => 'posts','action' => 'index'),
+            'logoutRedirect' => array('controller' => 'pages','action' => 'display','home'),
+			'authorize' => array('Controller'),'logoutRedirect' => array('controller' => 'pages','action' => 'display','home')));	
+	
 	public function isAuthorized($user) {
     // Admin can access every action
 		if (isset($user['role']) && $user['role'] === 'admin') {
@@ -55,6 +50,15 @@ class AppController extends Controller {
 	}
     public function beforeFilter() {
         $this->Auth->allow('index', 'view');
+		$this->set('username',$this->_username());
     }
+	
+	function _username(){
+		$users_username = NULL;
+		if($this->Auth->user()){
+			$users_username = $this->Auth->user('username');
+		}
+		return $users_username;
+	}
 }
 ?>

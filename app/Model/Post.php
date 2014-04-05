@@ -3,10 +3,10 @@ class Post extends AppModel {
 
 	public function isOwnedBy($post, $user) {
 		return $this->field('id', array('id' => $post,
-						'user_id' => $user)) === $post;
+							'user_id' => $user)) === $post;
 	}
 	
-	 public $validate = array(
+	public $validate = array(
         'title' => array(
             'rule' => 'notEmpty'
         ),
@@ -14,5 +14,11 @@ class Post extends AppModel {
             'rule' => 'notEmpty'
         )
     );
+	
+	public $belongsTo = array(
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id')
+	);
 }
 ?>
