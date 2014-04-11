@@ -3742,3 +3742,1158 @@ Stack Trace:
 #3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-05 14:27:53 Error: Fatal Error (1): Call to a member function image() on a non-object in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 68]
+2014-04-05 14:27:53 Error: [FatalErrorException] Call to a member function image() on a non-object
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 68, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 68, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 14:28:30 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-05 14:28:30 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 14:28:31 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-05 14:28:31 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 14:29:49 Error: Fatal Error (1): Call to a member function image() on a non-object in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-05 14:29:49 Error: [FatalErrorException] Call to a member function image() on a non-object
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-05 14:29:49 Error: Fatal Error (1): Call to a member function image() on a non-object in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-05 14:29:49 Error: [FatalErrorException] Call to a member function image() on a non-object
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:44:01 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:44:02 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:49:41 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:49:41 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:49:41 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:49:41 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:50:55 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:50:55 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:50:55 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:50:55 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:58:50 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:58:50 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 19:58:50 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 19:58:50 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:04:35 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 20:04:35 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:04:36 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 63]
+2014-04-06 20:04:36 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 63, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:06:50 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 62]
+2014-04-06 20:06:50 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:06:50 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 62]
+2014-04-06 20:06:50 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:12:53 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-06 20:12:53 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:12:53 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-06 20:12:53 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:22:53 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-06 20:22:53 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 20:22:53 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 79]
+2014-04-06 20:22:53 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 79, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:00:24 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-06 21:02:52 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [C:\wamp\www\cakeblog\app\Controller\PrivacyController.php, line 35]
+2014-04-06 21:02:53 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:03:57 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [C:\wamp\www\cakeblog\app\Controller\PrivacyController.php, line 35]
+2014-04-06 21:03:57 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [C:\wamp\www\cakeblog\app\Controller\PrivacyController.php, line 35]
+2014-04-06 21:03:57 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:03:57 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:07:47 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [C:\wamp\www\cakeblog\app\Controller\PrivacyController.php, line 27]
+2014-04-06 21:07:47 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:08:09 Error: Fatal Error (64): Cannot redeclare class Post in [C:\wamp\www\cakeblog\app\Model\Privacy.php, line 23]
+2014-04-06 21:08:09 Error: [FatalErrorException] Cannot redeclare class Post
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:08:10 Error: Fatal Error (64): Cannot redeclare class Post in [C:\wamp\www\cakeblog\app\Model\Privacy.php, line 23]
+2014-04-06 21:08:10 Error: [FatalErrorException] Cannot redeclare class Post
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-06 21:09:20 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:09:20 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:12:46 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:12:47 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:19:35 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:19:35 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:29:19 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:29:51 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:29:51 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:37:43 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:37:44 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:41:57 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:41:57 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:52:29 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:52:30 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:53:01 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 21:53:01 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(12): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:09:41 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:14:41 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:14:41 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:14:55 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/add
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-06 22:16:24 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:53:08 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-06 22:53:08 Error: [MissingTableException] Table privacies for model Privacy was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'privacies',
+  'class' => 'Privacy',
+  'ds' => 'default',
+)
+Request URL: /cakeblog/privacy
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('privacies')
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): Model->getDataSource()
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('all', Array)
+#3 C:\wamp\www\cakeblog\app\Controller\PrivacyController.php(11): Model->find('all')
+#4 [internal function]: PrivacyController->index()
+#5 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PrivacyController), Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PrivacyController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-04-08 12:22:16 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:33:12 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:35:11 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:39:42 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:40:56 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/15
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:47:40 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/15
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-08 12:47:42 Error: [MissingActionException] Action UsersController::activate() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'activate',
+)
+Request URL: /cakeblog/users/activate/15
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-09 14:50:06 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 4]
+2014-04-09 14:50:07 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:07 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 4]
+2014-04-09 14:50:07 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:36 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:36 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:37 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:37 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:51 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:51 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:51 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:51 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:54 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:54 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 14:50:54 Error: Fatal Error (4): syntax error, unexpected '>' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 3]
+2014-04-09 14:50:54 Error: [FatalErrorException] syntax error, unexpected '>'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 15:03:37 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 27]
+2014-04-09 15:03:37 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 15:03:37 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\cakeblog\app\View\Users\edit.ctp, line 27]
+2014-04-09 15:03:38 Error: [FatalErrorException] syntax error, unexpected '?'
+Request URL: /cakeblog/users/edit/9
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 27, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 15:26:18 Error: [MissingHelperException] Helper class statusHelper could not be found.
+Exception Attributes: array (
+  'class' => 'statusHelper',
+  'plugin' => false,
+)
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('status')
+#1 C:\wamp\www\cakeblog\lib\Cake\View\View.php(818): HelperCollection->__isset('status')
+#2 C:\wamp\www\cakeblog\app\View\Users\index.ctp(7): View->__get('status')
+#3 C:\wamp\www\cakeblog\lib\Cake\View\View.php(929): include('C:\wamp\www\cak...')
+#4 C:\wamp\www\cakeblog\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\cak...', Array)
+#5 C:\wamp\www\cakeblog\lib\Cake\View\View.php(460): View->_render('C:\wamp\www\cak...')
+#6 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#8 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-09 15:27:07 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [C:\wamp\www\cakeblog\lib\Cake\Utility\Debugger.php, line 812]
+2014-04-09 15:27:07 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 812)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\wamp\www\cak...', 812, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\wamp\www\cak...', 812, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 15:27:42 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 7]
+2014-04-09 15:27:43 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 7, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 7, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-09 15:38:42 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 35]
+2014-04-09 15:38:42 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 35, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 12:46:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/img/icon_facebook.jpg
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-10 13:11:04 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 85]
+2014-04-10 13:11:04 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 85, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 85, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:11:05 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 85]
+2014-04-10 13:11:05 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 85)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 85, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 85, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:12:32 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 90]
+2014-04-10 13:12:32 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:12:32 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 90]
+2014-04-10 13:12:32 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:13:26 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 89]
+2014-04-10 13:13:26 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 89, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 89, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:13:27 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 89]
+2014-04-10 13:13:27 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 89, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 89, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:15:12 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 90]
+2014-04-10 13:15:12 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 13:15:13 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 90]
+2014-04-10 13:15:13 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 90, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:05:50 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 43]
+2014-04-10 22:05:50 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:06:10 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 43]
+2014-04-10 22:06:10 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:06:11 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 43]
+2014-04-10 22:06:11 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 43, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:07:03 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:07:03 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:07:03 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:07:03 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:07:35 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:07:35 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:07:36 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:07:36 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:09:12 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:09:12 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:09:13 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:09:13 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-10 22:09:37 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in [C:\wamp\www\cakeblog\app\View\Users\index.ctp, line 42]
+2014-04-10 22:09:37 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 42, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 00:48:36 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 70]
+2014-04-11 00:48:36 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 00:48:37 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 70]
+2014-04-11 00:48:37 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 00:49:25 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 70]
+2014-04-11 00:49:25 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 00:49:26 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 70]
+2014-04-11 00:49:26 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 70, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 01:56:28 Error: [MissingControllerException] Controller class DisplaysController could not be found.
+Exception Attributes: array (
+  'class' => 'DisplaysController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/displays/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

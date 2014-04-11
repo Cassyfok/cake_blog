@@ -19,9 +19,9 @@
     <tr>
         <td><?php echo $this->Html->link($post['Post']['title'],array('action'=>'view', $post['Post']['id'])); ?></td>
 		
-		<td><?php echo $post['Post']['created']; ?></td>
+		<td><?php echo $this->Time->niceShort($post['Post']['created']); ?></td>
 		
-		<td><?php echo $this->Form->postLink('Delete',array('action' => 'delete', $post['Post']['id']),array('confirm' => 'Are you sure?')); ?></td>
+		<td><?php echo $this->Form->postLink('Delete',array('action'=>'delete', $post['Post']['id']),array('confirm' => 'Are you sure?')); ?></td>
 
 		<td><?php echo $this->Html->link('Edit',array('action' => 'edit', $post['Post']['id'])); ?></td>
 		<!--create another column or table data-->
@@ -32,13 +32,19 @@
     <?php endforeach; ?>
     <?php unset($post); ?>
 </table>
+</div>
+</div>
+</div>
 
 <div class="actions">
+
 	<ul>
-		<td><?php echo $this->Html->link(__('Add Blog'), array('action' => 'add')); ?></td>
-		<td><?php echo $this->Html->link('Logout',array('controller'=>'users', 'action'=>'logout')); ?></td>		
+		<li><?php echo $this->Html->link(__('Add Blog'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link('Logout',array('controller'=>'users', 'action'=>'logout')); ?></li>		
 	</ul>
+	
 </div>
+
 	
 
 

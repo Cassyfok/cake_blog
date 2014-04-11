@@ -1,9 +1,10 @@
 #flashMessage{
-	background-color: darkblue;
+	background-color: yellow;
 	color: white;
-	border: 1px solid black;
+	border: 2px solid black;
 	padding: 5px;
 }
+
 .form-error{
 	border: 1px solid darkblue;
 }
@@ -15,3 +16,32 @@
 	margin-bottom: 10px;
 	width: 100%;
 }
+
+.userlogout{
+	text-align: right;
+}
+
+div#welcome{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	text-align: center;
+	color: #0188cc;
+}
+
+div.copyright{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+
+div#footer{
+position: relative;
+margin-left: 40px;
+padding-top: 10px;
+}
+
+h1{
+	text-align: center;
+	margin: auto;
+}
+	

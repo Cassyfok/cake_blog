@@ -13,6 +13,12 @@ class UsersController extends AppController {
 		$this->set('authUser',$this->user);
     }
 	
+	public $paginate = array(
+		'limit' => 25,
+		'condition' => array('status'=>'1'),
+		'order' => array('User.username' => 'asc')
+	);	
+
 	public function isAuthorized($user){
 		if(in_array($this ->action,array('add'))){
 			return true;
@@ -44,14 +50,43 @@ class UsersController extends AppController {
 		return $this->redirect($this->Auth->logout());
 	}	
 	
-     public function index() {
+ /**    public function index() {
 		//model is related with User 
 		//recursive is similar with find all but different method
         $this->User->recursive = 0;
 		//passing the result from recursive to users(variable) to the view(index.ctp) 
         //this.paginate 
         $this->set('users', $this->paginate());
+    }*/
+	 public function index() {
+        $this->paginate = array(
+            'limit' => 6,
+            'order' => array('User.username' => 'asc' )
+        );
+        $users = $this->paginate('User');
+        $this->set(compact('users'));
     }
+
+	public function activate($id = null) {
+         
+        if (!$id) {
+            $this->Session->setFlash('Please provide a user id');
+            $this->redirect(array('action'=>'index'));
+        }
+         
+        $this->User->id = $id;
+        if (!$this->User->exists()) {
+            $this->Session->setFlash('Invalid user id provided');
+            $this->redirect(array('action'=>'index'));
+        }
+        if ($this->User->saveField('status', 1)) {
+            $this->Session->setFlash(__('User re-activated'));
+            $this->redirect(array('action' => 'index'));
+        }
+        $this->Session->setFlash(__('User was not re-activated'));
+        $this->redirect(array('action' => 'index'));
+    }
+	
 
 	//find the user id
 	// model go to find id in database then give back to the view
@@ -105,7 +140,7 @@ class UsersController extends AppController {
             if ($this->User->save($this->request->data)){
 			//display message
                 $this->Session->setFlash(__('The user has been saved'));
-				//redirect to execute code in the index fuction
+				//redirect to execute code in the index function
                 return $this->redirect(array('action' => 'index'));
             }
             $this->Session->setFlash(__('The user could not be saved. Please, try again.'));
@@ -119,7 +154,6 @@ class UsersController extends AppController {
 			//if user click to edit without login then page will bring to login page
 			}
     }
-
  
     public function delete($id = null){
 	//only accept HTTP post request

@@ -1,14 +1,17 @@
 <!-- File: /app/View/Posts/view.ctp -->
 <div class="post view">
-<p><h1><?php echo h($post['Post']['title']); ?></h1></p>
-<p>Created: <?php echo $post['Post']['created']; ?></p>
-<p><?php echo h($post['Post']['body']); ?></p>
-<p><?php echo h($post['User']['username']); ?></p>
-<p><?php echo h($post['User']['role']); ?></p>
+<?php if(isset($post['Post'])) $title_for_layout = $post['Post']['title']?>
+	<h3><?php echo h($post['Post']['title']); ?></h3><br />
+	<p><?php echo h($post['Post']['body']); ?></p><br/>
+	<p>Created: <?php echo $post['Post']['created']; ?></p>
+	<p>Written By: <?php echo h($post['User']['username']); ?></p>
+	<p>Role: <?php echo h($post['User']['role']); ?></p>
 </div>
 
 <div class="actions">
-<div id = "goback">
-<?php echo $this->Html->link('Back to index page',array('controller' => 'posts', 'action' => 'index')); ?>
-</div>
+	<ul>
+		<li><?php if ($this->Session->check('Auth.User')){
+			echo $this->Html->link("Return to Blogs Index",array('action'=>'index')); ?></li>
+		<li><?php echo $this->Html->link('Logout',array('controller'=>'users', 'action'=>'logout')); }?></li>		
+	</ul>
 </div>
