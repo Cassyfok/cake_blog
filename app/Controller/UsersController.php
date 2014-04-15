@@ -20,12 +20,13 @@ class UsersController extends AppController {
 	);	
 
 	public function isAuthorized($user){
-		if(in_array($this ->action,array('add'))){
+		if ($this ->action ==='add'){
 			return true;
 		}
 		if(in_array($this->action,array('view','edit','delete'))){
 			$userId = $this->request->param['pass'][0];
 			if ($this->Auth->user('id')=== $user){
+		//	if ($this->User-isOwnedBy($user['id'])){
 			return true;
 		}else{		
 			$this->Session->setFlash(_('Sorry only Admin users may modify, view or delete other users'));
@@ -34,7 +35,6 @@ class UsersController extends AppController {
 		return parent::isAuthorized($user);
 	}
 	
-
 	
 	public function login() {
     if ($this->request->is('post')) {
@@ -67,7 +67,7 @@ class UsersController extends AppController {
         $this->set(compact('users'));
     }
 
-	public function activate($id = null) {
+/**	public function activate($id = null) {
          
         if (!$id) {
             $this->Session->setFlash('Please provide a user id');
@@ -85,7 +85,7 @@ class UsersController extends AppController {
         }
         $this->Session->setFlash(__('User was not re-activated'));
         $this->redirect(array('action' => 'index'));
-    }
+    }*/
 	
 
 	//find the user id
@@ -154,6 +154,7 @@ class UsersController extends AppController {
 			//if user click to edit without login then page will bring to login page
 			}
     }
+		
  
     public function delete($id = null){
 	//only accept HTTP post request

@@ -58,7 +58,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<li><?php if(!isset($username)) { //  if users not login, it will bring tologin page when users click on button of POST           
                	echo $this->Html->link('Post', array('controller' => 'users', 'action' => 'login'));            
 			} else {
-				echo $this->Html->link('Post', array('controller' => 'posts', 'action' => 'index'));}?> </li>	
+				echo $this->Html->link('Post', array('controller' => 'posts', 'action' => 'index'));}?> </li>
+			<li><?php echo $this->Html->link('Privacy', array('controller' => 'pages', 'action' => 'home')); ?></li>
 			<li><?php if(AuthComponent::user()){
 					echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'));
 					}else {echo $this->Html->link('Login', array('controller'=>'users','action'=>'login'));}?></li>
@@ -68,7 +69,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		<div id="content">
 		<div class="userlogout .col-md-3 .col-md-offset-3">
 			<?php if(AuthComponent::user()){
-				echo ''.AuthComponent::user('username').',';
+				echo $this->Html->image('fb2.jpg');
+				echo ' '.AuthComponent::user('username').',';
 				echo $this->Html->link(' Logout', array('controller'=>'users','action'=>'logout'));
 				}
 			?>
@@ -85,7 +87,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		
 		<div id="footer">				
 			<div class="copyright">		
-			<h5><?php echo $this->Html->image('fb2.jpg');?> &copy; Copyright by Cassy0106Ken</h5>			
+			<h5><?php echo $this->Html->image('spiro-7xs.jpg');?> &copy; Copyright by Cassy0106Ken</h5>			
 			</div>
 		</div>	
 		

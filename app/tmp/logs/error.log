@@ -4897,3 +4897,303 @@ Request URL: /cakeblog/displays/home
 Stack Trace:
 #0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-04-12 22:11:10 Error: [Exception] DateTimeZone::__construct() expects parameter 1 to be string, array given
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(288): DateTimeZone->__construct(Array)
+#1 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(257): CakeTime::timezone(Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(347): CakeTime::convert(1397178224, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(395): CakeTime::fromString('2014-04-11 01:0...', Array)
+#4 C:\wamp\www\cakeblog\lib\Cake\View\Helper\TimeHelper.php(193): CakeTime::niceShort('2014-04-11 01:0...', Array)
+#5 C:\wamp\www\cakeblog\app\View\Posts\index.ctp(24): TimeHelper->niceShort('2014-04-11 01:0...', Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\View\View.php(929): include('C:\wamp\www\cak...')
+#7 C:\wamp\www\cakeblog\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\cak...', Array)
+#8 C:\wamp\www\cakeblog\lib\Cake\View\View.php(460): View->_render('C:\wamp\www\cak...')
+#9 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-12 22:11:11 Error: [Exception] DateTimeZone::__construct() expects parameter 1 to be string, array given
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(288): DateTimeZone->__construct(Array)
+#1 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(257): CakeTime::timezone(Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(347): CakeTime::convert(1397178224, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Utility\CakeTime.php(395): CakeTime::fromString('2014-04-11 01:0...', Array)
+#4 C:\wamp\www\cakeblog\lib\Cake\View\Helper\TimeHelper.php(193): CakeTime::niceShort('2014-04-11 01:0...', Array)
+#5 C:\wamp\www\cakeblog\app\View\Posts\index.ctp(24): TimeHelper->niceShort('2014-04-11 01:0...', Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\View\View.php(929): include('C:\wamp\www\cak...')
+#7 C:\wamp\www\cakeblog\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\cak...', Array)
+#8 C:\wamp\www\cakeblog\lib\Cake\View\View.php(460): View->_render('C:\wamp\www\cak...')
+#9 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#10 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#11 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-04-12 22:53:07 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:53:07 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:53:08 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:53:08 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:53:38 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:53:38 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:53:38 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:53:38 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:54:12 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:54:12 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:54:13 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:54:13 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:54:53 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:54:53 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-12 22:54:53 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 54]
+2014-04-12 22:54:53 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/pages/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 54, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 20:48:31 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 23]
+2014-04-13 20:48:31 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 20:48:55 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 23]
+2014-04-13 20:48:55 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 23]
+2014-04-13 20:48:55 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 20:48:55 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakeblog/dashboard
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 23, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:23:17 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ')' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 158]
+2014-04-13 21:23:17 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ')'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:05 Error: Fatal Error (4): syntax error, unexpected '!', expecting T_VARIABLE or '$' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 158]
+2014-04-13 21:24:05 Error: Fatal Error (4): syntax error, unexpected '!', expecting T_VARIABLE or '$' in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 158]
+2014-04-13 21:24:05 Error: [FatalErrorException] syntax error, unexpected '!', expecting T_VARIABLE or '$'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:05 Error: [FatalErrorException] syntax error, unexpected '!', expecting T_VARIABLE or '$'
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 158, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:33 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 178]
+2014-04-13 21:24:33 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 178]
+2014-04-13 21:24:33 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:33 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:51 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 178]
+2014-04-13 21:24:51 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cakeblog\app\Controller\UsersController.php, line 178]
+2014-04-13 21:24:51 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:24:51 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 178, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-13 21:26:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.' in 'where clause'
+Request URL: /cakeblog/users/edit/19
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(800): DboSource->query('findBy', Array, Object(User))
+#8 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): Model->__call('findBy', Array)
+#9 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): User->findBy('19')
+#10 [internal function]: UsersController->edit('19')
+#11 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-13 21:28:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.' in 'where clause'
+Request URL: /cakeblog/users/edit/19
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(800): DboSource->query('findBy', Array, Object(User))
+#8 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): Model->__call('findBy', Array)
+#9 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): User->findBy('19')
+#10 [internal function]: UsersController->edit('19')
+#11 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-13 21:28:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.' in 'where clause'
+Request URL: /cakeblog/users/edit/19
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2902): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(2874): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#7 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(800): DboSource->query('findBy', Array, Object(User))
+#8 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): Model->__call('findBy', Array)
+#9 C:\wamp\www\cakeblog\app\Controller\UsersController.php(162): User->findBy('19')
+#10 [internal function]: UsersController->edit('19')
+#11 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-04-15 02:25:36 Error: [MissingControllerException] Controller class PageController could not be found.
+Exception Attributes: array (
+  'class' => 'PageController',
+  'plugin' => NULL,
+)
+Request URL: /cakeblog/page/home
+Stack Trace:
+#0 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-15 10:37:53 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 62]
+2014-04-15 10:37:53 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-15 10:37:54 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cakeblog\app\View\Layouts\default.ctp, line 62]
+2014-04-15 10:37:54 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /cakeblog/posts
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 62, Array)
+#3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
