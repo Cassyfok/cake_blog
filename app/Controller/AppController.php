@@ -36,7 +36,7 @@ class AppController extends Controller {
 		'DebugKit.Toolbar',
 		'Session',
         'Auth' => array(
-            'loginRedirect' => array('controller' => 'posts','action' => 'index'),
+            'loginRedirect' => array('controller' => 'posts','pages','action' => 'index','home'),
             'logoutRedirect' => array('controller' => 'pages','action' => 'display','home'),
 			'authorize' => array('Controller'),'logoutRedirect' => array('controller' => 'pages','action' => 'display','home')));	
 	
@@ -45,8 +45,13 @@ class AppController extends Controller {
 		if (isset($user['role']) && $user['role'] === 'admin') {
 			return true;
 		}
-		// Default deny
-		return false;
+		if (isset($user['role']) && $user['role'] === 'author') {
+			return false;
+		}// Default deny
+		
+		if (isset($user['role']) && $user['role'] === 'customer') {
+			return false;
+		}
 	}
     public function beforeFilter() {
         $this->Auth->allow('home','index', 'view');

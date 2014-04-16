@@ -26,7 +26,6 @@ class UsersController extends AppController {
 		if(in_array($this->action,array('view','edit','delete'))){
 			$userId = $this->request->param['pass'][0];
 			if ($this->Auth->user('id')=== $user){
-		//	if ($this->User-isOwnedBy($user['id'])){
 			return true;
 		}else{		
 			$this->Session->setFlash(_('Sorry only Admin users may modify, view or delete other users'));
