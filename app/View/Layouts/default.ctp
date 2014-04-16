@@ -73,8 +73,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 				echo ' '.AuthComponent::user('username').',';
 				echo $this->Html->link(' Logout', array('controller'=>'users','action'=>'logout'));
 				}
-			?>
-			 
+			?>			 
 		</div>	
 		
 		<div id="welcome">	

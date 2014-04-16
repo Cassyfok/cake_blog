@@ -18,22 +18,25 @@
     </tr>
 </thead>
 <tbody>
-
     <!-- Here is where we loop through our $posts array, printing out post info -->
-	<?php $count=0; ?>
-        <?php foreach($users as $user): ?>                
-        <?php $count ++;?>
-        <?php if($count % 2): echo '<tr>'; else: echo '<tr class="zebra">' ?>
-        <?php endif; ?>
-	<td><?php echo $this->Form->checkbox('User.id.'.$user['User']['id']); ?></td>
-	<td><?php echo $this->Html->link($user['User']['id'],array('action'=>'view', $user['User']['id'])); ?></td>
-	<td><?php echo $this->Html->link($user['User']['username'],array('action'=>'view', $user['User']['id']),array('escape' => false));?></td>
-	<td><?php echo $user['User']['password']; ?></td>
-	<td><?php echo $user['User']['role']; ?></td>
-    <td><?php echo $this->Time->niceShort($user['User']['created']); ?></td> 
-	<td><?php echo $this->Html->link('Edit', array('action' => 'edit', $user['User']['id']));?></td> <!-- send data to User model by identify the user Id-->
-	<td><?php echo $this->Time->niceShort($user['User']['modified']); ?></td>
-	<td><?php echo $this->Form->postLink('Delete',array('action'=>'delete', $user['User']['id']),array('confirm' => 'Are you sure?')); ?></td>             
+<?php $count=0; ?>
+     <?php foreach($users as $user): ?>                
+     <?php $count ++;?>
+     <?php if($count % 2): echo '<tr>'; else: echo '<tr class="zebra">' ?>
+     <?php endif; ?>
+<td><?php echo $this->Form->checkbox('User.id.'.$user['User']['id']); ?></td>
+<td><?php echo $this->Html->link($user['User']['id'],array('action'=>'view',
+			$user['User']['id'])); ?></td>
+<td><?php echo $this->Html->link($user['User']['username'],array('action'=>'view', 
+			$user['User']['id']),array('escape' => false));?></td>
+<td><?php echo $user['User']['password']; ?></td>
+<td><?php echo $user['User']['role']; ?></td>
+<td><?php echo $this->Time->niceShort($user['User']['created']); ?></td> 
+<td><?php echo $this->Html->link('Edit', array('action' => 'edit', 
+			$user['User']['id']));?></td> <!-- send data to User model by identify the user Id-->
+<td><?php echo $this->Time->niceShort($user['User']['modified']); ?></td>
+<td><?php echo $this->Form->postLink('Delete',array('action'=>'delete', 
+			$user['User']['id']),array('confirm' => 'Are you sure?')); ?></td>             
     </tr>
     <?php endforeach; ?>
     <?php unset($user); ?>

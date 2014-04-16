@@ -5197,3 +5197,29 @@ Stack Trace:
 #3 C:\wamp\www\cakeblog\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-15 22:14:03 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+',
+  'enabled' => true,
+)
+Request URL: /cakeblog/
+Stack Trace:
+#0 C:\wamp\www\cakeblog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\cakeblog\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(3498): Model->setSource('users')
+#5 C:\wamp\www\cakeblog\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#6 C:\wamp\www\cakeblog\lib\Cake\View\Helper\FormHelper.php(207): Model->schema()
+#7 C:\wamp\www\cakeblog\lib\Cake\View\Helper\FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\cakeblog\app\View\Users\login.ctp(4): FormHelper->create('User')
+#9 C:\wamp\www\cakeblog\lib\Cake\View\View.php(929): include('C:\wamp\www\cak...')
+#10 C:\wamp\www\cakeblog\lib\Cake\View\View.php(891): View->_evaluate('C:\wamp\www\cak...', Array)
+#11 C:\wamp\www\cakeblog\lib\Cake\View\View.php(460): View->_render('C:\wamp\www\cak...')
+#12 C:\wamp\www\cakeblog\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#13 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#14 C:\wamp\www\cakeblog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\wamp\www\cakeblog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
