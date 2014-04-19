@@ -55,7 +55,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                	echo $this->Html->link('User', array('controller' => 'users', 'action' => 'login'));            
 			} else {
 				echo $this->Html->link('User', array('controller' => 'users', 'action' => 'index'));}?> </li>
-			<li><?php if(!isset($username)) { //  if users not login, it will bring tologin page when users click on button of POST           
+			<li><?php if(!isset($username)) { //  if users not login, it will bring to login page when users click on button of POST           
                	echo $this->Html->link('Post', array('controller' => 'users', 'action' => 'login'));            
 			} else {
 				echo $this->Html->link('Post', array('controller' => 'posts', 'action' => 'index'));}?> </li>
@@ -86,7 +86,8 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 		
 		<div id="footer">				
 			<div class="copyright">		
-			<h5><?php echo $this->Html->image('spiro-7xs.jpg');?> &copy; Copyright by Cassy0106Ken</h5>			
+			<h5><?php echo $this->Html->image('spiro-7xs.jpg');?> &copy; Copyright by Cassy0106Ken</h5>	
+			<p><?php echo $this->Html->link('Privacy', array('controller' => 'pages', 'action' => 'home')); ?></p>
 			</div>
 		</div>	
 		

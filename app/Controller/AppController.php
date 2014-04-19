@@ -53,6 +53,7 @@ class AppController extends Controller {
 			return false;
 		}
 	}
+	
     public function beforeFilter() {
         $this->Auth->allow('home','index', 'view');
 		$this->set('username',$this->_username());
